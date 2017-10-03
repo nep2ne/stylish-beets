@@ -1,23 +1,23 @@
 html {
   background-color: #c9b5ab;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   line-height: 1.5;
 }
 
 h1, h2 {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 1.5rem;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.75rem;
   font-weight: bold;
   color: #3f1622;
 }
 
 nav ol {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: bold;
   list-style-type: none;
 }
 
-a:link {
+a {
   color: #8f2440;
   font-weight: bold;
   text-decoration: none;
@@ -37,12 +37,7 @@ i, cite, em {
   font-style: italic;
 }
 
-b, strong {
-  font-weight: bold;
-}
-
-id {
-  font-family: 'PT Sans', sans-serif;
+b {
   font-weight: bold;
 }
 
@@ -55,9 +50,10 @@ h2 + p {
 }
 
 .period {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-weight: bold;
 }
+
 dt {
   font-weight: bold;
 }
@@ -68,10 +64,18 @@ blockquote p {
 }
 
 footer cite {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 ul li {
-  font-size: 0.8rem;
+  font-size: .8rem;
   list-style-type: circle;
+}
+
+img {
+  width: 100%;
+}
+
+p:not(.period) {
+  font-weight: normal;
 }
