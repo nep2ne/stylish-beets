@@ -3,7 +3,7 @@ html {
   line-height: 1.5;
 }
 
-h1 {
+h1, h2 {
   font-size: 1.5rem;
   color: #3f1622;
 }
@@ -16,4 +16,34 @@ a:link {
   color: #8f2440;
   font-weight: bold;
   text-decoration: none;
+}
+
+a:hover {
+  color: #3f1662;
+  text-decoration: underline;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
+
+i {
+  font-style: italic;
+}
+
+b {
+  font-style: bold;
+}
+
+id {
+  font-style: bold;
+}
+
+h2 + ol {
+  list-style-type: lower-greek;
+}
+
+h2 + p {
+  font-style: italic;
 }
